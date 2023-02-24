@@ -1,4 +1,6 @@
-import { Text, View, TextInput, TouchableOpacity } from 'react-native';
+import { useState } from 'react';
+
+import { Text, View, TextInput, TouchableOpacity, ScrollView, FlatList, Alert } from 'react-native';
 
 import { Participant } from '../../components/Participant';
 
@@ -6,14 +8,38 @@ import { styles } from './styles';
 
 export default function Home() {
 
+  const [participants, setParticipants ] = useState<string[]>([]);
+  const [participantName, setParticipantName] = useState('');
+
   function handleParticipantAdd() {
-    console.log("clicou no botao");
-  }
+
+    if (participants.includes(participantName)) {
+        return Alert.alert("Participante Existe","Já existe com esse nome!")
+      }
+
+    setParticipants(prevState => [...prevState, participantName]);
+
+    setParticipantName('');
+
+    }
+
+  function handleParticipantRemove(name: string) {
+    Alert.alert('Remover',`Remover o participante ${name}?`,[
+      {
+        text: 'Sim',
+        onPress: () => setParticipants(prevState => prevState.filter(participant => participant !== name))
+      },
+      {
+        text: 'Não',
+        style: 'cancel'
+      }
+    ]);
+  }      
 
   return(
     <View style={styles.container}>
-      <Text style={styles.eventName}>React Native</Text>
-      <Text key="2">React Native</Text>
+      <Text style={styles.eventName}>Lista de Participantes</Text>
+      <Text style={styles.eventSubName}>lista de nomes</Text>
 
       <View style={styles.form}>
 
@@ -22,18 +48,43 @@ export default function Home() {
         placeholder="Name"
         placeholderTextColor="red"
         keyboardType="default"
+        onChangeText={e => setParticipantName(e)}
+        value={participantName}
       />
 
       <TouchableOpacity 
         style={styles.button}
         onPress={handleParticipantAdd}>
-        <Text style={styles.buttonText}>Click Here</Text>
+        <Text style={styles.buttonText}>+</Text>
       </TouchableOpacity>
 
       </View>
 
-      <Participant />
-      <Participant />
+<ScrollView>
+</ScrollView>
+
+      <FlatList 
+        data={participants}
+        keyExtractor={item => item}
+        renderItem={({item}) => (
+          <Participant 
+            key={item}
+            name={item}
+            onRemove={()=>handleParticipantRemove(item)}
+          />          
+        )}
+        />
+
+      {/* {
+        participants.map( participant => (
+          <Participant 
+            key={participant}
+            name={participant}/>
+        ))
+      } */}
+
+
+
 
     </View>
   )

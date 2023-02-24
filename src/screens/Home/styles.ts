@@ -3,14 +3,19 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "white",
+    backgroundColor: "black",
     padding: 24
   },
   eventName: {
-    color: 'green',
+    color: 'white',
     fontSize: 24,
     fontWeight: 'bold',
     marginTop: 48
+  },
+  eventSubName: {
+    color: 'white',
+    fontSize: 12,
+    fontWeight: 'normal',
   },
   input: {
     flex: 1,
