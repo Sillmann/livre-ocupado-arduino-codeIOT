@@ -15,7 +15,7 @@ export function Participant({name, onRemove }: Props) {
         style={styles.button}
         onPress={onRemove}
       >
-        <Text style={styles.buttonText}>-</Text>
+        <Text style={styles.buttonText}>    -</Text>
       </TouchableOpacity>
 
     </View>

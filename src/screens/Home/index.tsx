@@ -43,25 +43,21 @@ export default function Home() {
 
       <View style={styles.form}>
 
-      <TextInput 
-        style={styles.input}
-        placeholder="Name"
-        placeholderTextColor="red"
-        keyboardType="default"
-        onChangeText={e => setParticipantName(e)}
-        value={participantName}
-      />
+        <TextInput 
+          style={styles.input}
+          placeholder="Name"
+          placeholderTextColor="#6B6B6B"
+          keyboardType="default"
+          onChangeText={e => setParticipantName(e)}
+          value={participantName}
+        />
 
-      <TouchableOpacity 
-        style={styles.button}
-        onPress={handleParticipantAdd}>
-        <Text style={styles.buttonText}>+</Text>
-      </TouchableOpacity>
-
+        <TouchableOpacity 
+          style={styles.button}
+          onPress={handleParticipantAdd}>
+          <Text style={styles.buttonText}>   +</Text>
+        </TouchableOpacity>
       </View>
-
-<ScrollView>
-</ScrollView>
 
       <FlatList 
         data={participants}
@@ -73,6 +69,12 @@ export default function Home() {
             onRemove={()=>handleParticipantRemove(item)}
           />          
         )}
+        showsVerticalScrollIndicator={false}
+        ListEmptyComponent={()=>(
+          <Text style={styles.listEmptyText}>
+            Nenhum nome adicionado ainda na sua lista!
+          </Text>
+        )}  
         />
 
       {/* {
