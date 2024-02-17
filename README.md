@@ -1,8 +1,10 @@
-IOT3 - Eletrônica: Conceitos e Componentes Básicos 
-POR: SILVIO SILMAN – ssilman@gmail.com 
-TÍTULO: LIVRE OU OCUPADO 
+IOT3 - Eletrônica: Conceitos e Componentes Básicos
+
+TÍTULO: LIVRE OU OCUPADO
+
 FOTO DO CIRCUITO:
-![FotoDoCircuito](https://github.com/Sillmann/livre-ocupado-arduino-codeIOT/assets/58642347/4f0a1173-ed7e-46e7-b834-151165859236)
+![FotoDoCircuito](https://github.com/Sillmann/livre-ocupado-arduino-codeIOT/assets/58642347/6a6fd256-9a35-4919-a7c1-08de789701f7)
+
 
 MATERIAIS: 
 - Placa: Arduíno UNO; 
@@ -18,7 +20,8 @@ lavatório está Livre ou Ocupado; Observando a indicação dos LEDs já consegu
 sobre isso.
 
 https://drive.google.com/file/d/1GagLz4JdQWEMx6FAQp0HwFkoQhvmTyIB/view?usp=sharing
-![foto_video_iot3](https://github.com/Sillmann/livre-ocupado-arduino-codeIOT/assets/58642347/21b373bb-9a6d-438d-abed-00f6a09a8baf)
+
+![foto_video_iot3](https://github.com/Sillmann/livre-ocupado-arduino-codeIOT/assets/58642347/ad5195aa-83ef-4f97-9d98-f02f737cbc97)
 
 
 
