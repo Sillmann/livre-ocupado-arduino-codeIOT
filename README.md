@@ -1,5 +1,8 @@
 CODE IOT - Eletrônica: Conceitos e Componentes Básicos
-Iniciativa: SAMSUNG
+Iniciativa do curso SAMSUNG
+
+Motivação para realizar o curso:
+- Conhecer técnicas e tecnologias e desenvolver aplicação em Internet das Coisas.
 
 TÍTULO: LIVRE OU OCUPADO
 
