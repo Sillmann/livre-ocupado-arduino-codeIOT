@@ -4,6 +4,7 @@ Iniciativa: SAMSUNG
 TÍTULO: LIVRE OU OCUPADO
 
 FOTO DO CIRCUITO:
+
 ![FotoDoCircuito](https://github.com/Sillmann/livre-ocupado-arduino-codeIOT/assets/58642347/6a6fd256-9a35-4919-a7c1-08de789701f7)
 
 
