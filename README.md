@@ -1,4 +1,5 @@
-IOT3 - Eletrônica: Conceitos e Componentes Básicos
+CODE IOT - Eletrônica: Conceitos e Componentes Básicos
+Iniciativa: SAMSUNG
 
 TÍTULO: LIVRE OU OCUPADO
 
@@ -23,5 +24,7 @@ https://drive.google.com/file/d/1GagLz4JdQWEMx6FAQp0HwFkoQhvmTyIB/view?usp=shari
 
 ![foto_video_iot3](https://github.com/Sillmann/livre-ocupado-arduino-codeIOT/assets/58642347/ad5195aa-83ef-4f97-9d98-f02f737cbc97)
 
+Certificado:
+![Certificado_Conceitos_Eletronica](https://github.com/Sillmann/livre-ocupado-arduino-codeIOT/assets/58642347/2634d245-1f9c-432b-972d-ed46940bf381)
 
 
