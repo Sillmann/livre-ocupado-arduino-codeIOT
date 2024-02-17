@@ -26,6 +26,8 @@ https://drive.google.com/file/d/1GagLz4JdQWEMx6FAQp0HwFkoQhvmTyIB/view?usp=shari
 ![foto_video_iot3](https://github.com/Sillmann/livre-ocupado-arduino-codeIOT/assets/58642347/ad5195aa-83ef-4f97-9d98-f02f737cbc97)
 
 Certificado:
-![Certificado_Conceitos_Eletronica](https://github.com/Sillmann/livre-ocupado-arduino-codeIOT/assets/58642347/2634d245-1f9c-432b-972d-ed46940bf381)
+![Certificado_Conceitos_Eletronica](https://github.com/Sillmann/livre-ocupado-arduino-codeIOT/assets/58642347/674c00cb-ede0-4832-bae2-0f4b9981d093)
+
+https://codeiot.org.br/certificates/da48e3d05f39445ba0215e8a1ec19ab8
 
 
